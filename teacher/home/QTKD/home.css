@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    /* background-color: rgb(234, 233, 233); */
+}
+
+
+.nav{
+    background-color:rgb(61, 122, 61) ;
+    height: 50px;
+    width: auto;
+    position: relative;
+    white-space: nowrap;
+    /* margin-bottom: 20px; */
+}
+.nav img{
+    height: 50px;
+    width: 50px;
+}
+.nav p{
+    /* white-space: nowrap; */
+    line-height: 65px;
+    height: 50px;
+    width: auto;
+    position: absolute;
+    top: -10px;
+    left: 60px;
+    font-size: 20px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+.nav a{
+    white-space: nowrap;
+    text-decoration: none;
+    color: white;
+    height: 50px;
+    width: auto;
+}
+
+.slidebar{
+    width: 200px;
+    height: 100%;
+    background-color: rgb(33, 86, 50);
+    margin: 0;
+}
+.menu{
+    border: 0px solid #c7ced1;
+    font-family: Verdana, sans-serif, Arial;
+    font-size: 14px;
+    max-width: 1300px;
+    margin: 0 auto;
+    border-bottom: 0px solid #c7ced1;
+    margin-bottom: 0px;
+    padding: 1px 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.menu li{
+    width: 200px;
+    height: auto;
+    border-bottom: 1px solid #c7ced1;
+    font-size: 15px;
+    /* margin-bottom: 5px; */
+    padding-top: 7px;
+    padding: 5px;
+    list-style: none;
+    color: white;
+}
+.menu li:hover{
+    background-color: white;
+    color: black;
+}
+
+.content{
+    display: flex;
+}
+.content a{
+    color: white;
+    text-decoration: none;
+}
+.tthem{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(33, 86, 50);
+    text-align: center;
+    border-bottom: solid 1px white;
+}
+.them{
+    
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin: 0;
+    line-height: 50px;
+}
+.tthem:hover{
+    background-color: rgb(123, 41, 41);
+}
+.them:hover{
+    color: white;
+    text-decoration: none;
+}
+
+
+.ques{
+    margin-left: 30px;
+    /* display: none; */
+}
+.div_them{
+    position: relative;
+    /* z-index: 1; */
+}
+.div_form{
+    position: absolute;
+    top: 0;
+    left: 250px;
+    width: 800px;
+    /* display: hidden; */
+}
+
+.form-group p{
+    margin: 0;
+    font-size: 15px;
+    color: rgb(156, 156, 156);
+    /* z-index: 0; */
+}
+
+a{
+    color: white;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.menu .mamon{
+    float: right;
+    margin: 0;
+    font-size: 12px;
+    color: rgb(255, 255, 181);
+}
+
+
+#btnCreate {
+    position: absolute;
+    top: 5px;
+
+}
